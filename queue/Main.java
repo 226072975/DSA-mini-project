@@ -6,7 +6,7 @@ public class Main{
     StudentQueue queue = new StudentQueue();
 
         Student s1 = new Student("221045678", "Maria", "Registration", 12);
-        Student s2 = new Student("22034512", "Thomas", "Student Card", 5);
+        Student s2 = new Student("222034512", "Tomas", "Student Card", 5);
         Student s3 = new Student("223041876", "Ndapewa", "Fees", 8);
         Student s4 = new Student("221067341", "Simon", "Documents", 4);
         Student s5 = new Student("224058213", "Helena", "Academic Enquiry", 6);
