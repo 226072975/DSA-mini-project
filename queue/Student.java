@@ -1,3 +1,5 @@
+package queue;
+
 public class Student{
     String studentNo;
     String name;

@@ -1,12 +1,13 @@
+package queue;
 public class StudentQueue{
     private QueueNode front, rear;
 
-    boolean isEmpty(){
+    public boolean isEmpty(){
         return (front == null && rear == null);
 
     }
     
-    void enqueue(Student student){
+    public void enqueue(Student student){
     QueueNode newNode = new QueueNode(student);
     newNode.next = null;
 
@@ -22,7 +23,7 @@ System.out.println(student.name + " joined the queue.");
 
 }
 
-Student dequeue(){
+public Student dequeue(){
     if (front == null && rear == null){
         System.out.println("Queue is empty");
         return null;
@@ -38,7 +39,7 @@ Student dequeue(){
 }
 
     
-Student peek(){
+public Student peek(){
     if(isEmpty()){
         System.out.println("Queue is empty");
         return null;
@@ -48,7 +49,7 @@ Student peek(){
 }
 
 
-void displayQueue(){
+public void displayQueue(){
     if(isEmpty()){
         System.out.println("No students waiting");
         return;

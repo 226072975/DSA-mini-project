@@ -1,3 +1,4 @@
+package queue;
 public class QueueNode{
     Student data;
     QueueNode next;
