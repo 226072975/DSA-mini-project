@@ -6,7 +6,7 @@ public class Student{
     String serviceType;
     int serviceTime;
     
-    Student(String studentno, String name, String serviceType, int serviceTime){
+    public Student(String studentno, String name, String serviceType, int serviceTime){
         this.studentNo = studentno;
         this.name = name;
         this.serviceType = serviceType;

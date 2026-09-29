@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DailyStatistics {
+class DailyStatistics {
 
     static final int MAX_STUDENTS = 100;
 

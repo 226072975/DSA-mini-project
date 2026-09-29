@@ -114,7 +114,7 @@ class StudentList {
     }
 }
 
-public class Main {
+class LinkedListDemo {
     public static void main(String[] args) {
         StudentList queue = new StudentList();
 

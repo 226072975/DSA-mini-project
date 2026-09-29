@@ -34,6 +34,10 @@ The required data structures and algorithms are implemented without using Java's
 ```text
 DSA-mini-project/
 │
+├── Main.java
+├── Arrays.java
+├── Stacks.java
+│
 ├── queue/
 │   ├── Main.java
 │   ├── QueueNode.java
@@ -48,8 +52,7 @@ DSA-mini-project/
 │   └── SortingExperiment.java
 │
 ├── src/
-│   ├── Main.java
-│   └── Student.java
+│   └── LinkedLists.java
 │
 ├── README.md
 └── .gitignore
@@ -60,6 +63,32 @@ DSA-mini-project/
 * Java Development Kit (JDK)
 * Command Prompt, PowerShell, or another terminal
 * A Java-compatible development environment such as VS Code
+
+## Running the Integrated Service Centre
+
+Open PowerShell in the project folder and compile the integrated queue, linked list, array statistics, and sorting components:
+
+```powershell
+New-Item -ItemType Directory -Force out | Out-Null
+javac -d out Main.java Arrays.java src\LinkedLists.java queue\Student.java queue\QueueNode.java queue\StudentQueue.java Soarting\SortingExperiment.java
+```
+
+Run the service-centre menu:
+
+```powershell
+java -cp out Main
+```
+
+Choose an option from the menu to add or serve students, manage the linked list, calculate daily service-time statistics, or sort service times. The postfix stack exercise is separate and is not part of this menu.
+
+## Running the Postfix Stack Exercise
+
+Compile and run the separate stack program from the project folder:
+
+```powershell
+javac Stacks.java
+java Stacks
+```
 
 ## Running the Queue
 
